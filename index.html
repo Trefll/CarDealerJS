@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Dealer</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Car dealer</h1>
+    <input name="searchInput" id="searchInput" placeholder="Type a brand" />
+    <section id="cars"></section>
+    <section id="car" class="hidden"></section>
+  <form class="hidden" id="form">
+    <label for="cash">Cash</label>
+    <input type="radio" id="cash" name="payment" value="cash" />
+    <label for="leasing">Leasing</label>
+    <input type="radio" id="leasing" name="payment" value="leasing" />
+    <br />
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+    <br />
+    <label for="deliveryTime">Date of delivery:</label>
+    <input type="date" id="deliveryTime" name="deliveryTime">
+    <br />
+    <div id="errorMsg" class="hidden">Please enter a valid name and select a delivery time.</div>
+  </form>
+  <section id="accessories">
+    <h4 id="accessoryText" class="hidden">Click on the accessory to add it to your car</h4>
+    <ul id="accessoriesList" class="hidden"></ul>
+    <ul id="selectedAccessories" class="hidden"> </ul>
+  </section>
+  <section id="summary" class="hidden"></section>
+  <button type="button" id="homepageBtn" class="hidden">Back to homepage</button>
+    <button type="button" id="buy" class='hidden'>Buy!</button>
+  </body>
+</html>

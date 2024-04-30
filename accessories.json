@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Set of car floor mats",
+        "price": 99.99
+    },
+    {
+        "id": 2,
+        "name": "Car seat covers",
+        "price": 149.99
+    },
+    {
+        "id": 3,
+        "name": "Spare tire",
+        "price": 249.99
+    },
+    {
+        "id": 4,
+        "name": "Car tool kit",
+        "price": 79.99
+    },
+    {
+        "id": 5,
+        "name": "Dashboard phone holder",
+        "price": 29.99
+    },
+    {
+        "id": 6,
+        "name": "Car interior cleaning kit",
+        "price": 39.99
+    },
+    {
+        "id": 7,
+        "name": "GPS navigation system",
+        "price": 199.99
+    },
+    {
+        "id": 8,
+        "name": "Reverse camera",
+        "price": 129.99
+    },
+    {
+        "id": 9,
+        "name": "Set of trunk mats",
+        "price": 59.99
+    },
+    {
+        "id": 10,
+        "name": "Car audio system",
+        "price": 299.99
+    }
+]

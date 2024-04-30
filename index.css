@@ -1,0 +1,171 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Hidden Class */
+
+.hidden {
+  display: none;
+}
+
+#searchInput {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Car Styles */
+
+.car {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.car_image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Form Styles */
+
+form {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Accessories Styles */
+
+#accessories {
+  margin-top: 20px;
+}
+
+#accessoriesList {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#accessoriesList p {
+  cursor: pointer;
+  background-color: #fff;
+  color: #f44336;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#accessoriesList li {
+  margin-bottom: 10px;
+}
+
+#selectedAccessories {
+  background-color: #f44336;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#selectedAccessories p {
+  cursor: pointer;
+  background-color: #fff;
+  color: #f44336;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* #selectedAccessories p:hover {
+  background-color: #d32f2f;
+} */
+
+/* Summary Styles */
+
+#summary {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#summary img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#summary h2 {
+  margin-bottom: 10px;
+}
+
+#summary p {
+  margin-bottom: 5px;
+}
